@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="3706" started-at="2023-02-22T14:18:33Z" finished-at="2023-02-22T14:18:37Z">
+    <groups>
+    </groups>
+    <test name="RestAssured test" duration-ms="3706" started-at="2023-02-22T14:18:33Z" finished-at="2023-02-22T14:18:37Z">
+      <class name="com.sorin.statuses.TwitterWorkflowTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sorin.statuses.TwitterWorkflowTest@6a5fc7f7]" name="setup" is-config="true" duration-ms="569" started-at="2023-02-22T14:18:33Z" finished-at="2023-02-22T14:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postTweet()[pri:0, instance:com.sorin.statuses.TwitterWorkflowTest@6a5fc7f7]" name="postTweet" duration-ms="2221" started-at="2023-02-22T14:18:34Z" finished-at="2023-02-22T14:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTweet -->
+        <test-method status="PASS" signature="readTweet()[pri:0, instance:com.sorin.statuses.TwitterWorkflowTest@6a5fc7f7]" name="readTweet" duration-ms="456" started-at="2023-02-22T14:18:36Z" depends-on-methods="com.sorin.statuses.TwitterWorkflowTest.postTweet" finished-at="2023-02-22T14:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweet -->
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:com.sorin.statuses.TwitterWorkflowTest@6a5fc7f7]" name="deleteTweet" duration-ms="444" started-at="2023-02-22T14:18:37Z" depends-on-methods="com.sorin.statuses.TwitterWorkflowTest.readTweet" finished-at="2023-02-22T14:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+      </class> <!-- com.sorin.statuses.TwitterWorkflowTest -->
+    </test> <!-- RestAssured test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
